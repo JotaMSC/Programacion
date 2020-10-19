@@ -5,15 +5,14 @@
 */
 public class Ejercicio4 { // Clase principal
 	public static void main(String[] args) {
-		System.out.printf("%-10s %-10s\n", "computer", "ordenador");
-		System.out.printf("%-10s %-10s\n", "student", "estudiante");
-		System.out.printf("%-10s %-10s\n", "cat", "gato");
-		System.out.printf("%-10s %-10s\n", "penguin", "pingüino");
-		System.out.printf("%-10s %-10s\n", "machine", "máquina");
-		System.out.printf("%-10s %-10s\n", "nature", "naturaleza");
-		System.out.printf("%-10s %-10s\n", "light", "luz");
-		System.out.printf("%-10s %-10s\n", "green", "verde");
-		System.out.printf("%-10s %-10s\n", "book", "libro");
-		System.out.printf("%-10s %-10s\n", "pyramid", "pirámide");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|Lunes","|Martes","|Miércoles","|Jueves","|Viernes","|");
+		System.out.printf("%-50s \n","--------------------------------------------------");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|PROG","|SISTEMAS","|BDD","|PROG","|SISTEMAS","|");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|PROG","|BDD","|PROG","|PROG","|SISTEMAS","|");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|BDD","|BDD","|PROG","|PROG","|SISTEMAS","|");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|L.MAR","|PROG","|SISTEMAS","|BDD","|FOL","|");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|L.MAR","|L.MAR","|SISTEMAS","|BDD","|FOL","|");
+		System.out.printf("%-10s %-10s %-10s %-10s %-10s %-1s \n","|SISTEMAS","|L.MAR","|FOL","|BDD","|FOL","|");
+
 	}
 }
