@@ -12,7 +12,7 @@ public class Ejercicio8 { // Clase principal
 		char varChar3 = 'C';
 		char varChar4 = 'D';
 		char varChar5 = 'F';
-		String varString = varChar1 + varChar2 + varChar3 + varChar4 + varChar5;
+		String varString = varChar1 + "" + varChar2 + "" + varChar3 + "" + varChar4 + "" + varChar5;
 		System.out.println(varString);
 
 	}
